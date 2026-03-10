@@ -55,7 +55,9 @@ Where $h$ is the space between $x_n$ and $x_{n+1}$.
 
 The first Runge-Kutta methods are the following:
 1. Of first order, also known as Euler's method, has the next equation:
+
 $$y_{n+1}=y_n+hf(x_n,y_n)$$
+
 2. Of second order, also known as the improved Euler's method or Heun's method, has the following equation:
 
 $$y_{n+1}=y_n+\frac{h}{2}(k_1+k_2)\qquad ; \qquad \left.
@@ -64,6 +66,7 @@ $$y_{n+1}=y_n+\frac{h}{2}(k_1+k_2)\qquad ; \qquad \left.
 	k_2=f(x_n+h,y_n+hk_1)
 \end{array}
 \right.$$
+
 3. Of fourth order, the standard Runge-Kutta, has the following equation:
 
 $$y_{n+1}=y_n+\frac{h}{6}(k_1+2k_2+2k_3+k_4)\qquad ; \qquad \left.
@@ -145,4 +148,5 @@ While this dataset provides a robust basis for compartmental modeling, the follo
 5. Zill, D. (2020). Ecuaciones Diferenciales con aplicaciones de modelado [Ebook] (9th ed., pp. 361-363). Cengage Learning. From [link](https://cutbertblog.files.wordpress.com/2019/01/zill-d.g.-ecuaciones-diferenciales-con-aplicaciones-de-modelado-cengage-learning-2009.pdf)
 6. Metodos de Runge-Kutta - Solucion numerica de ecuaciones diferenciales - Mathstools. Mathstools. (2020). From [link](https://www.mathstools.com/section/main/Metodos_de_Runge_Kutta?lang=es#.X72hkp1Kjec)
 7. Métodos Numéricos en Ecuaciones Diferenciales Ordinarias. Campus.usal.es. (2020). From [link](http://campus.usal.es/~mpg/Personales/PersonalMAGL/Docencia/MetNumTema4Teo(09-10).pdf)
+
 
