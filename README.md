@@ -1,4 +1,7 @@
-# Forecasting the COVID-19 Pandemic Evolution in Querétaro through the Kermack-McKendrick Model
+# Forecasting the COVID-19 Pandemic Evolution in Querétaro through the Kermack-McKendrick Model 
+
+![Python](https://img.shields.io/badge/python-3.9-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
 This repository contains the Python implementation and raw data used to model and predict the evolution of the COVID-19 pandemic in Querétaro, México, from 2020 to 2021.
 ---
 *March 9th, 2026 (A reinterpreted version of a project originally developed on November 25th, 2020)*
@@ -148,5 +151,6 @@ While this dataset provides a robust basis for compartmental modeling, the follo
 5. Zill, D. (2020). Ecuaciones Diferenciales con aplicaciones de modelado [Ebook] (9th ed., pp. 361-363). Cengage Learning. From [link](https://cutbertblog.files.wordpress.com/2019/01/zill-d.g.-ecuaciones-diferenciales-con-aplicaciones-de-modelado-cengage-learning-2009.pdf)
 6. Metodos de Runge-Kutta - Solucion numerica de ecuaciones diferenciales - Mathstools. Mathstools. (2020). From [link](https://www.mathstools.com/section/main/Metodos_de_Runge_Kutta?lang=es#.X72hkp1Kjec)
 7. Métodos Numéricos en Ecuaciones Diferenciales Ordinarias. Campus.usal.es. (2020). From [link](http://campus.usal.es/~mpg/Personales/PersonalMAGL/Docencia/MetNumTema4Teo(09-10).pdf)
+
 
 
