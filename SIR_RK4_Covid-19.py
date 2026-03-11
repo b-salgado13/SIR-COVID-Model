@@ -206,7 +206,7 @@ def run_sir(params: dict, days: int = 900, h: float = 0.05, location: str = ""):
 # USAGE
 # ──────────────────────────────────────────────────────────────────────────────
 # ── Querétaro CSV ──────────────────────────────
-LOCAL_CSV = r"data\Covid-19 Queretaro.csv"
+LOCAL_CSV = "data/Covid-19 Queretaro.csv"
 if pathlib.Path(LOCAL_CSV).exists():
     params_local = load_local_data(LOCAL_CSV)
     run_sir(params_local, location="Querétaro (local CSV)")
